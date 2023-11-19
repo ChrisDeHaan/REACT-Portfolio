@@ -10,7 +10,7 @@ function NavTabs() {
                 <div className='col-10 col-md-4 mx-auto text-center'>
                     <h1 className='display-4'>Chris DeHaan</h1>
                 </div>
-                <nav className = 'col-10 col-md-8 mx-auto text-white'>
+                <nav className = 'col-10 col-md-8 mx-auto'>
                     <ul className="nav text-center">
                         <li className="nav-item col-12 col-sm-3 nav-custom fs-3">
                             <Link

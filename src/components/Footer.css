@@ -1,0 +1,14 @@
+.footerDiv {
+    min-height: 100px
+}
+
+.footerLogo {
+    height: 70px;
+    width: 70px;
+}
+
+.footerLogo:hover {
+    border-radius: 50%;
+    box-shadow: 0 0 10px 2px gray;
+}
+
