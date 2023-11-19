@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <main className='col-10 mx-auto'>
+      <main>
         <Outlet/>
       </main>
       <Footer />

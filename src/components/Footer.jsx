@@ -3,7 +3,7 @@ import LinkedInLogo from '../assets/linkedin_black_logo_icon.png'
 
 import './Footer.css'
 
-function Footer() {
+export default function Footer() {
     return (
         <div className='row my-2 mx-auto col-6 footerDiv'>
             <div className='col-6 text-end'>
@@ -19,5 +19,3 @@ function Footer() {
         </div>
     )
 }
-
-export default Footer
