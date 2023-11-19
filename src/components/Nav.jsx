@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import './Nav.css'
 
-function NavTabs() {
+export default function NavTabs() {
     const currentPage = useLocation().pathname;
 
     return (
@@ -50,5 +50,3 @@ function NavTabs() {
         </header>
     )
 }
-
-export default NavTabs;
