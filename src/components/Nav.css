@@ -1,0 +1,15 @@
+header {
+    background-color: var(--dark-blue);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--baby-blue)
+}
+
+.nav-link:focus {
+    color: var(--midnight-blue)
+}

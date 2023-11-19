@@ -1,0 +1,12 @@
+:root {
+    --dark-blue: #0C2D48;
+    --midnight-blue: #1457A0;
+    --baby-blue: #daecf1;
+    --opacity: .9;
+    --margin: 10px;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
