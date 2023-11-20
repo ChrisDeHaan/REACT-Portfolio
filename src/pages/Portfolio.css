@@ -1,0 +1,15 @@
+.title-custom {
+    color: var(--dark-blue)
+}
+
+.imgEl {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.imgEl:hover {
+    box-shadow: 0 0 15px var(--dark-blue);
+    opacity: 90%;
+}
