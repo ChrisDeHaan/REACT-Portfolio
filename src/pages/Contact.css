@@ -1,0 +1,17 @@
+.btn-custom {
+    color: white;
+    background: var(--dark-blue);
+}
+
+.btn-custom:hover {
+    color: white;
+    background: var(--midnight-blue);
+}
+
+.form-custom {
+    border: solid 1px var(--midnight-blue)
+}
+
+.form-custom:focus {
+    box-shadow: 0 0 3px 3px var(--dark-blue)
+}
