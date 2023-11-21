@@ -10,3 +10,73 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* About Me */
+.header-cstm {
+    color: var(--dark-blue);
+}
+
+.pfp-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/caldera.jpg);
+    width: 100%;
+    height: 300px;
+
+}
+
+.pfp {
+    height: 95%;
+    border-radius: 25%;
+    border: 5px solid var(--dark-blue);
+    box-shadow: 0 0 10px var(--dark-blue);
+}
+
+/* Contact */
+.btn-custom {
+    color: white;
+    background: var(--dark-blue);
+}
+
+.btn-custom:hover {
+    color: white;
+    background: var(--midnight-blue);
+}
+
+.form-custom {
+    border: solid 1px var(--midnight-blue)
+}
+
+.form-custom:focus {
+    box-shadow: 0 0 3px 3px var(--dark-blue)
+}
+
+/* Portfolio */
+.title-custom {
+    color: var(--dark-blue)
+}
+
+.imgEl {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.imgEl:hover {
+    box-shadow: 0 0 15px var(--dark-blue);
+    opacity: 90%;
+}
+
+.imgRepo {
+    height: 40px;
+    width: 40px;
+}
+
+/* Resume */
+.link {
+    text-decoration: none;
+    color: white;
+}
