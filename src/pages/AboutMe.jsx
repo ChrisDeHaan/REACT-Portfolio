@@ -1,4 +1,3 @@
-import './AboutMe.css'
 import pfp from '../assets/beach.jpg'
 import '../assets/caldera.jpg'
 

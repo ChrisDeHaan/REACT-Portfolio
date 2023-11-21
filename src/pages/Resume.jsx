@@ -4,7 +4,7 @@ export default function Resume() {
             <h1 className="display-6 text-center m-4 title-custom">Resume</h1>
             <div className="col-10 mx-auto mb-5 title-custom">
                 <div className="mb-5 text-center">
-                    <button className="btn btn-custom">Download Resume Here</button>
+                    <button className="btn btn-custom"><a href='https://docdro.id/O8GKw4Q' target='_blank' className='link'>Download Resume Here</a></button>
                 </div>
                 <h2>Front-End Proficiencies</h2>
                 <ul>
