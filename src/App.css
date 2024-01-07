@@ -88,6 +88,13 @@ p {
     transform: translateY(-7px);
 }
 
+#btnEl:disabled {
+    opacity: 40%;
+    color: var(--dark-blue);
+    background-color: var(--baby-blue);
+    border: solid 1px var(--dark-blue);
+}
+
 /* Resume */
 .link {
     text-decoration: none;
