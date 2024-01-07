@@ -1,6 +1,6 @@
 export default function Resume() {
     return (
-        <div>
+        <div className="mx-auto max-w">
             <h1 className="display-6 text-center m-4 title-custom">Resume</h1>
             <div className="col-10 mx-auto mb-5 title-custom">
                 <div className="mb-5 text-center">
