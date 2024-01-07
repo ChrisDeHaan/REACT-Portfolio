@@ -78,7 +78,7 @@ export default function Contact() {
         <div className='max-w mx-auto'>
             <h1 className="display-6 text-center m-4 title-custom fw-bold">Contact Me</h1>
             <div className='text-center fs-5' id='submissionEl'></div>
-            <form className='col-10 mx-auto' onSubmit={validateForm}>
+            <form className='col-10 mx-auto' onSubmit={validateForm} action='https://getform.io/f/bd9c1538-d2f6-4fe4-8622-29cc9b790594' method='POST'>
                 <div className="col-12 col-md-7 mx-auto my-3">
                     <label className='form-label col-3 fs-4 title-custom'>Name:</label>
                     <input type='text' className='form-control form-custom' onBlur={handleBlur} onChange={handleChange} id='nameInput' name='name' />

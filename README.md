@@ -18,4 +18,3 @@
 
   ## Questions
   - https://github.com/ChrisDeHaan
-  - exampleaddress@example.com
