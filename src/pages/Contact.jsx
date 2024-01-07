@@ -75,8 +75,8 @@ export default function Contact() {
     }
 
     return (
-        <div>
-            <h1 className="display-6 text-center m-4 title-custom">Contact Me</h1>
+        <div className='max-w mx-auto'>
+            <h1 className="display-6 text-center m-4 title-custom fw-bold">Contact Me</h1>
             <div className='text-center fs-5' id='submissionEl'></div>
             <form className='col-10 mx-auto' onSubmit={validateForm}>
                 <div className="col-12 col-md-7 mx-auto my-3">

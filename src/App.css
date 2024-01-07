@@ -10,6 +10,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+p {
+    color: var(--dark-blue)
+}
+
+.max-w {
+    max-width: 1440px;
+}
+
 /* About Me */
 .header-cstm {
     color: var(--dark-blue);
@@ -73,6 +81,11 @@
 .imgRepo {
     height: 40px;
     width: 40px;
+    transition: 250ms;
+}
+
+.imgRepo:hover {
+    transform: translateY(-7px);
 }
 
 /* Resume */

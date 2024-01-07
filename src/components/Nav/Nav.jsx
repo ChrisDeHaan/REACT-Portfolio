@@ -6,7 +6,7 @@ export default function NavTabs() {
 
     return (
         <header className='p-3 text-white'>
-            <div className='row col-11 mx-auto align-items-center'>
+            <div className='row col-11 mx-auto align-items-center max-w'>
                 <div className='col-10 col-md-4 mx-auto text-center'>
                     <h1 className='display-4'>Chris DeHaan</h1>
                 </div>

@@ -8,7 +8,7 @@ export default function Home() {
                 <img src={pfp} className='img-fluid pfp' />
             </div>
             <div className='col-10 mx-auto'>
-                <h1 className="display-6 text-center m-4 header-cstm">About Me</h1>
+                <h1 className="display-6 text-center m-4 header-cstm fw-bold">About Me</h1>
                 <p className='fs-5'>Hello! My name is Chris and I'm a burgeoning full-stack web developer currently taking a coding
                     bootcamp
                     through UCF with the ambition of accelerating my career growth. I have a Bachelor's Degree in

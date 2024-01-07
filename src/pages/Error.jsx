@@ -5,8 +5,8 @@ export default function Error() {
     console.error(error);
 
     return(
-        <div id='error-page'>
-            <h1 className='display-6'>Oops!</h1>
+        <div id='error-page' className="col-10 mx-auto max-w m-5">
+            <h1 className='display-6 title-custom'>Oops!</h1>
             <p>Sorry, an unexpected error has occurred.</p>
             <p>
                 <i>{error.data || error.error.message}</i>
