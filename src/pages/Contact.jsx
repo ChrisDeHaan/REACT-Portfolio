@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Contact() {
     const [contactInfo, setContactInfo] = useState({
@@ -8,13 +8,6 @@ export default function Contact() {
     })
 
     function getElId(element, message) { document.getElementById(element).textContent = message }
-    function getInputId(element, message) { document.getElementById(element).value = message }
-    function clearFields() {
-        getElId('nameEl', '')
-        getElId('emailEl', '')
-        getElId('messageEl', '')
-        getElId('submissionEl', '')
-    }
 
     const validateEmail = (email) => {
         return String(email)
@@ -23,20 +16,14 @@ export default function Contact() {
                 /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
             );
     };
-    
-    const validateForm = (e) => {
-        e.preventDefault();
-        clearFields();
-        if (contactInfo.name === '') { getElId('nameEl', 'Name is required. I need some way to address you!') }
-        if (contactInfo.email === '') { getElId('emailEl', 'Email is required. How can I contact you back?') }
-        if (contactInfo.message === '') { getElId('messageEl', 'Message is required.') }
-        if (!(contactInfo.name === '') && !(contactInfo.email === '') && !(contactInfo.message === '')) {
-            getInputId('nameInput', '')
-            getInputId('emailInput', '')
-            getInputId('messageInput', '')
-            getElId('submissionEl', "Thanks for your submission. I'll get back to you as soon as possible!")
+
+    useEffect(() => {
+        if (contactInfo.name === '' || contactInfo.email === '' || contactInfo.message === '' || validateEmail(contactInfo.email) === null) {
+            document.getElementById('btnEl').disabled = true
+        } else {
+            document.getElementById('btnEl').disabled = false
         }
-    }
+    })
 
     const handleBlur = (e) => {
         if (e.target.name == "email") {
@@ -79,7 +66,7 @@ export default function Contact() {
         <div className='max-w mx-auto'>
             <h1 className="display-6 text-center m-4 title-custom fw-bold">Contact Me</h1>
             <div className='text-center fs-5' id='submissionEl'></div>
-            <form className='col-10 mx-auto' onSubmit={validateForm} action='https://getform.io/f/bd9c1538-d2f6-4fe4-8622-29cc9b790594' method='POST'>
+            <form className='col-10 mx-auto' action='https://getform.io/f/bd9c1538-d2f6-4fe4-8622-29cc9b790594' method='POST' autoComplete='off'>
                 <div className="col-12 col-md-7 mx-auto my-3">
                     <label className='form-label col-3 fs-4 title-custom'>Name:</label>
                     <input type='text' className='form-control form-custom' onBlur={handleBlur} onChange={handleChange} id='nameInput' name='name' />
@@ -99,7 +86,6 @@ export default function Contact() {
                     <button className="btn btn-custom" id='btnEl' >Submit</button>
                 </div>
             </form>
-
         </div>
     )
 }
