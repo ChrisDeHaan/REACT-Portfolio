@@ -21,7 +21,7 @@ export default function Portfolio() {
             websiteLink: 'https://chrisdehaan.github.io/Team-SCCRM/',
             websiteImage: NasaSite,
             githubLink: 'https://github.com/ChrisDeHaan/Team-SCCRM',
-            text: 'A Front End application that uses the popular Astronomy Picture of the Day and Mars Rover NASA APIs. It was designed to provide an easy and convenient way to look through, find, and save your favorite APOD images or rover images. Tap the image to explore stunning images captured in, or related to, space. It utilizes HTML, CSS, Javascript, Boostrap, MidJourney, and DayJS.'
+            text: 'A Front End application that uses the popular Astronomy Picture of the Day and Mars Rover NASA APIs. It was designed to provide an easy and convenient way to look through, find, and save your favorite APOD images or rover images. Tap the image to explore stunning images captured in, or related to, space. It utilizes HTML, CSS, Javascript, Bootstrap, MidJourney, and DayJS.'
         },
         {
             id: 2,
