@@ -40,6 +40,7 @@ p {
     border-radius: 25%;
     border: 5px solid var(--dark-blue);
     box-shadow: 0 0 10px var(--dark-blue);
+    opacity: 96%;
 }
 
 /* Contact */

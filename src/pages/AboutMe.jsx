@@ -1,4 +1,4 @@
-import pfp from '../assets/beach.jpg'
+import pfp from '../assets/pro5-bgrm.png'
 import '../assets/caldera.jpg'
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
             <div className='mx-auto pfp-div text-center align-items-center'>
                 <img src={pfp} className='img-fluid pfp' />
             </div>
-            <div className='col-10 mx-auto'>
+            <div className='col-10 mx-auto max-w'>
                 <h1 className="display-6 text-center m-4 header-cstm fw-bold">About Me</h1>
                 <p className='fs-5'>My name is Chris and I'm a burgeoning Full-Stack Web Developer. I recently completed a coding
                     bootcamp
