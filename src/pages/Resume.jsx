@@ -24,7 +24,6 @@ export default function Resume() {
                     <li>MySQL, Sequelize</li>
                     <li>MongoDB, Mongoose</li>
                     <li>REST</li>
-                    <li>GraphQL</li>
                 </ul>
             </div>
         </div>
