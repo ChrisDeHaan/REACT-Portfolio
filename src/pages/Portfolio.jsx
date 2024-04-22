@@ -4,6 +4,7 @@ import NasaSite from '../assets/NASA-API.png'
 import HealthcareSite from '../assets/project-2.png'
 import WeatherApp from '../assets/weather-app.png'
 import ProgramonPalace from '../assets/programon-palace.png'
+import HarmoniousCreditUnion from '../assets/temp-HCU-preview.png'
 
 export default function Portfolio() {
     const data = [
@@ -25,6 +26,14 @@ export default function Portfolio() {
         },
         {
             id: 2,
+            title: 'Harmonious Credit Union',
+            websiteLink: 'https://harmonious-credit-union.netlify.app/',
+            websiteImage: HarmoniousCreditUnion,
+            githubLink: 'https://github.com/ChrisDeHaan/Harmonious-Credit-Union',
+            text: "A current WIP. Harmonious Credit Union is a website built to imitate a real bank website's functions. Currently only a FE application utilizing primarily React and Tailwind. Future plans are to build out a backend with a MySQL database."
+        },
+        {
+            id: 3,
             title: 'Doctor Portal',
             websiteLink: 'https://sccrm-healthcare-bbafb87ca81b.herokuapp.com/',
             websiteImage: HealthcareSite,
@@ -32,7 +41,7 @@ export default function Portfolio() {
             text: "This is a web application for remotely managing and monitoring hospital patient vital signs. This system uses a MySQL database, Express server, and Socket.io for real-time communication on the frontend. The app provides secure and efficient means to store and view patients' health information, making it a valuable tool for healthcare professionals and institutions."
         },
         {
-            id: 3,
+            id: 4,
             title: 'Better Weather',
             websiteLink: 'https://chrisdehaan.github.io/Weather-App/',
             websiteImage: WeatherApp,
